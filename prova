@@ -1,0 +1,17 @@
+<#include <stdio.h>
+int main()
+{
+    const float PI = 3.14;
+    float raggio, area, perimetro;
+
+    printf("Inserisci il raggio della circonferenza: ");
+    scanf("%f", &raggio);       //inserisco un valore come numero reale e lo memorizzo nella variabile di nome raggio
+
+    area = raggio * raggio * PI;
+    perimetro = 2 * raggio * PI;
+
+    printf("L'area della circonferenza vale %f, il perimetro invece vale %f\n", area, perimetro );
+
+    system("pause");
+    return 0;
+    }>
